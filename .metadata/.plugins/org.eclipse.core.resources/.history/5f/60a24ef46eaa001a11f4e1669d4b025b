@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Game</title>
+<style>
+body {
+	background-color: gray;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+.buttons {
+	margin: 10px;
+	width: 150px;
+	height: 150px;
+	border: 1px solid black;
+}
+
+.buttons:hover {
+	transform: scale(1.1, 1.1);
+}
+
+.texts {
+	width: 300px;
+	height: 50px;
+	text-align: center;
+	font-size: 30px;
+	font-family: cursive;
+}
+</style>
+<script type="text/javascript" src="gameTerminal.js"></script>
+</head>
+<body>
+	<br>
+	<br>
+	<br>
+	<br>
+	<div id="start" align="center">
+		<h2>EnTeR YoUr NaMe</h2>
+		<input ="text" class="texts" id="name" /> <br> <br> <br>
+		<h2>PiCk YoUr ChArAcTeR</h2>
+		<input class="buttons" type="image" name="male" src="male.png"
+			onclick="male()"> <input class="buttons" type="image"
+			name="female" src="female.png" onclick="female()">
+	</div>
+
+	<div class="wrapper">
+		<div class="sliding-background"></div>
+	</div>
+</body>
+</html>

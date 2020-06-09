@@ -1,0 +1,5 @@
+var character;
+function male() {
+	character = GIF();
+	character.load("guyRunning.gif");
+}

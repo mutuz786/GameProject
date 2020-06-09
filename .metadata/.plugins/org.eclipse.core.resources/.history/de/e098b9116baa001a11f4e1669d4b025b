@@ -1,0 +1,9 @@
+var character;
+function male() {
+	character = GIF();
+	character.load("guyRunning.gif");
+	this.canvas.width = 1520;
+	this.canvas.height = 270;
+	this.context = this.canvas.getContext("2d");
+	document.body.insertBefore(this.canvas, document.body.childNodes[0]);
+}

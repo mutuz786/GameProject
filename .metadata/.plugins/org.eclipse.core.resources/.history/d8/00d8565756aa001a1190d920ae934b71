@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Game</title>
+</head>
+<body>
+	<br><br><br><br>
+	<div align="center" >
+		<h4>EnTeR YoUr NaMe</h4>
+		<textarea id="name" inputmode="text" ></textarea><br>
+		<button >MaLe</button>
+		<button>FeMaLe</button>
+	</div>
+</body>
+</html>

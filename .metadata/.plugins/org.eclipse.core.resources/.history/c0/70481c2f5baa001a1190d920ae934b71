@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Game</title>
+</head>
+<body>
+	<br>
+	<br>
+	<br>
+	<br>
+	<div align="center">
+		<h2>EnTeR YoUr NaMe</h2>
+		<input ="text" id="name" width=100 /> <br> <br> <br>
+		<h2>PiCk YoUr ChArAcTeR</h2>
+		<input type="image" src="boy.png" alt="Submit" width="48"
+			height="48">
+		<input type="image" src="girl.png" alt="Submit" width="48"
+			height="48">
+
+	</div>
+</body>
+</html>

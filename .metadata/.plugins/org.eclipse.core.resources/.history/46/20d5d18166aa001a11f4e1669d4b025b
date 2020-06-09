@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Game</title>
+<style>
+body {
+	background-color: gray;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+buttons {
+	width: 150;
+	height: 150;
+	border: 1px solid black;
+}
+</style>
+</head>
+<body>
+	<br>
+	<br>
+	<br>
+	<br>
+	<div align="center">
+		<h2>EnTeR YoUr NaMe</h2>
+		<input ="text" id="name" dropzone="false" /> <br> <br> <br>
+		<h2>PiCk YoUr ChArAcTeR</h2>
+		<input class="buttons" type="image" name="boy" src="boy.png"> 
+		<input class="buttons" type="image" src="girl.png">
+
+	</div>
+</body>
+</html>
